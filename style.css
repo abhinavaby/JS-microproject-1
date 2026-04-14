@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    animation: pop 3s ease-in-out;
+}
+@keyframes pop {
+    0%{
+       opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: pop 3s ease-in-out ;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    animation: pop 3s ease-in-out ;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    animation: pop 3s ease-in-out ;
+}
+button:hover{
+    background-color: #45a049;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    animation: pop 3s ease-in-out ;
+}
